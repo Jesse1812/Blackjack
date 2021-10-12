@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="compteur">
+      <h1>Compteur</h1>
+      <h2>People entered:</h2>
+      <h2 id="count-el">0</h2>
+      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <button id="save-btn" onclick="save()">SAVE</button>
+      <h2 id="save-el">Previous entries:</h2>
+      <button id="save-btn" onclick="warning()">Purchase - $149</button>
+      <p id="error"></p>
+    </section>
+
+    <section id="calculatrice">
+      <h1>Calculatrice</h1>
+      <span id="num1-el"></span>
+      <span id="num2-el"></span>
+      <br />
+      <button class="calculator" onclick="add()">Add</button>
+      <button class="calculator" onclick="substract()">Substract</button>
+      <button class="calculator" onclick="multiply()">Multiply</button>
+      <button class="calculator" onclick="divide()">Divide</button>
+      <br />
+      <span id="sum-el"></span>
+      <br />
+    </section>
+
+    <section id="blackjack">
+      <h1>Blackjack</h1>
+      <p id="message-el">Want to play a round?</p>
+      <p id="cards-el">Cards:</p>
+      <p id="sum-el2">Sum:</p>
+      <button id="start-game-btn" onclick="startGame()">START GAME</button>
+      <button id="new-card-btn" onclick="newCard()">NEW CARD</button>
+      <p id="player-el"></p>
+    </section>
+
+    <script src="metro.js"></script>
+  </body>
+</html>
